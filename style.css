@@ -63,7 +63,7 @@ main .container{
 
 .container form .input-group{
   width: 100%;
-  margin: 1rem 0;
+  margin: 2rem 0;
   position: relative;
 }
 
@@ -73,7 +73,7 @@ main .container{
   bottom: .3rem;
   cursor: text;
   transition: .2s ease-in-out;
-
+  user-select: none;
 }
 
 .input-group .input{
@@ -82,11 +82,6 @@ main .container{
   border: 0;
   border-bottom: 2px solid #047F04;
   outline: 0;
-}
-
-.input-group .input:focus,
-.input-group .input:valid {
-  border-bottom: 2px solid #047F04;
 }
 
 .input-group .input:focus ~ label,
@@ -107,7 +102,7 @@ form a:hover{
 }
 
 form button{
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   padding: 1rem;
   background-color: #047F04;
   color: #fff;
@@ -121,3 +116,15 @@ form button:hover{
 }
 
 
+@media (max-width: 1056px) {
+  .content{
+    grid-template-columns: 1fr;
+    padding-bottom: 25rem;
+  }
+
+  .content #background{
+    width: 0;
+    height: 0;
+    background: transparent;
+  }
+}
