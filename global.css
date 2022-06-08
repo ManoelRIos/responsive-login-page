@@ -10,21 +10,10 @@ body{
 
 }
 
-body, button, input, textarea{
+body, button, input, textarea, a{
   font-size: clamp(14px, 1rem, 2vw);
 
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-}
-
-sr-only{
-  position: absolute;
-  height: 1px;
-  width: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip-path: rect(0,0,0,0);
-  white-space: nowrap;
-  border-width: 0;
+  border: none;
 }

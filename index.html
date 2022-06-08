@@ -21,7 +21,7 @@
     <div id="login" class="content">
 
       <div id="background">
-        <img src="https://images.pexels.com/photos/3862373/pexels-photo-3862373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <img src="https://images.pexels.com/photos/4056883/pexels-photo-4056883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
       </div>
 
       <main>
@@ -35,11 +35,15 @@
             <p>Boa noite, seja bem-vindo!</p>
 
             <form  action="">
-              <label for="input1-id" class="sr-only"></label>
-              <input class="input" type="text" id="input1-id" placeholder="Usuário"/>
+              <div class="input-group">
+                <input  class="input" type="text" id="name" required/>
+                <label for="name" >Nome</label>
+              </div>
 
-              <label for="input2-id" class="sr-only"></label>
-              <input class="input" type="text" id="input2-id" placeholder="Senha"/>
+              <div class="input-group">
+                <input class="input" type="text" id="passwrord" required/>
+                <label for="password"> Senha</label>              
+              </div>
 
               <a href="/">Esqueci minha senha</a>
               <button>Entrar</button>
