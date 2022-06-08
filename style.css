@@ -43,11 +43,13 @@ main .container{
 }
 
 .container h2{
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   color: #047F04;
 }
 
 .container p{
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -69,7 +71,6 @@ main .container{
   position: absolute;
   left: 0;
   bottom: .3rem;
-  color: #047F04;
   cursor: text;
   transition: .2s ease-in-out;
 
@@ -98,6 +99,11 @@ main .container{
 form  a{  
   padding-left: 64%;
   color: #047F04;
+  transition: .2s;
+}
+
+form a:hover{
+  color: rgb(65, 166, 119);
 }
 
 form button{
