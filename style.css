@@ -116,15 +116,21 @@ form button:hover{
 }
 
 
-@media (max-width: 1056px) {
+@media (max-width: 1024px) {
   .content{
+    width: 100vw;
     grid-template-columns: 1fr;
-    padding-bottom: 25rem;
   }
 
   .content #background{
     width: 0;
     height: 0;
     background: transparent;
+  }
+}
+
+@media (max-width: 576px){
+  .content{
+    margin: 0 3rem 0 0;
   }
 }
